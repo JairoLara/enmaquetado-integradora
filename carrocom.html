@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carrocom.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="products">
+    </div>
+    <button id="cart-button" onclick="toggleCart()">Carrito</button>
+    <div id="cart" class="hidden">
+        <h2>Carrito de Compras</h2>
+        <div id="cart-items"></div>
+        <div id="cart-actions">
+            <button onclick="emptyCart()">Vaciar Carrito</button>
+        </div>
+        <div id="total">
+            Total a pagar: $<span id="total-amount">0</span>
+        </div>
+    </div>
+
+    <script src="./carrocom.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+* {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(https://c.wallhere.com/photos/d7/cc/ultrawide_gradient_Starkiteckt_simple_background-2227514.jpg!d);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+.logoo {
+    width: 20%;
+    height: auto;
+}
+.ver {
+    background-color: darkorange;
+    border-radius: 10px;
+}
+.ver:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.container {
+    margin: 20px;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-control {
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+.op{
+    color: #000;
+}
+}
+input {
+    background-color: rgba(1, 1, 1, 0.1);
+    margin-top: 20px;
+}
+#ingr {
+    background-color: darkorange;
+}
+#ingr:hover {
+    transform: scale(1.1);
+}
+#ini {
+    background-color: darkorange;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+}
+#ini:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
